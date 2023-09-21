@@ -18,26 +18,14 @@ This repository contains three scripts:
 
 ## Installation
 
-1. Clone this repository:
-
-## Requirements
-
-- Node.js
-- npm or yarn
-
-## Installation
-
-1. Clone this repository:
-
+1. Clone this repository: git clone https://github.com/antymanty/nfttools.git
 2. Navigate to the project directory:
-
-3. Install the dependencies:
+3. Install the dependencies: npm install
    
-
 ## Usage
 
 1. Open `tool.js` and set the contract address to the address of the ERC721 contract for the NFT collection you want to analyze.
-2. Run the tool: node tool.js
+2. Run the tool: node retrieveNFT.js, node calculate_rarity.js or node tool.js depending on which tool you want to use
 3. The tool will output a JSON file in the `Rarity_zkSync` directory. This file contains the rarity scores for each NFT in the collection.
 
 ## Contributing
